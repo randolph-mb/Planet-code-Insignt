@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decoded Papers | PlanetCo Insight</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="navbar">
+        <a href="index.html" class="nav-logo">PlanetCo<span>.</span>Insight</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="policy.html">AI Power Moves</a></li>
+            <li><a href="culture.html">AI x Culture</a></li>
+            <li><a href="research.html">Decoded Papers</a></li>
+            <li><a href="tools.html">Tools</a></li>
+            <li><a href="pulse.html">Pulse</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <button class="mobile-menu-toggle">☰</button>
+    </header>
+
+    <main class="container section">
+        <div class="section-title">
+            <h1>Decoded Papers</h1>
+            <p>Distilling groundbreaking AI research into actionable insights.</p>
+        </div>
+
+        <div class="card fade-in">
+            <h3>Attention Is All You Need (Vaswani et al., 2017)</h3>
+            <p><strong>Simplified Summary:</strong> This paper introduced the "Transformer" architecture. Instead of processing data sequentially, it uses a mechanism called "self-attention" to weigh the importance of different words in a sentence simultaneously. This allows it to understand context far more effectively and handle much longer sequences of data.</p>
+            <p><strong>Why It Matters in the Real World:</strong> This is the foundational paper for nearly all modern large language models, including GPT, Claude, and Gemini. It's the reason AI can write coherent essays, translate languages fluidly, and power sophisticated chatbots. It fundamentally changed the trajectory of NLP.</p>
+        </div>
+
+        <div class="card fade-in" style="transition-delay: 0.2s;">
+            <h3>Generative Adversarial Networks (Goodfellow et al., 2014)</h3>
+            <p><strong>Simplified Summary:</strong> This paper proposed a system of two dueling neural networks. A "Generator" creates fake data (e.g., images of faces), and a "Discriminator" tries to tell the fake data from real data. They train together, with the Generator getting better at making fakes and the Discriminator getting better at spotting them. The result is an incredibly powerful image generator.</p>
+            <p><strong>Why It Matters in the Real World:</strong> GANs are the technology behind early deepfakes and hyper-realistic AI-generated art. While now often superseded by diffusion models (like in Midjourney), they pioneered the field of generative AI and are still used in tasks like data augmentation and style transfer.</p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <ul class="social-links">
+            <li><a href="#">X</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">GitHub</a></li>
+        </ul>
+        <p>© 2024 PlanetCo Insight. The Future is a Collaborative Project.</p>
+    </footer>
+</body>
+</html>
